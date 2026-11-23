@@ -5,7 +5,7 @@
 Every PR that touches `.github/workflows/` is scanned by [Zizmor](https://docs.zizmor.sh/), a static analyzer for GitHub Actions, via [`github_actions_scan.yml`](https://github.com/google-gh-automation/workflows/blob/main/.github/workflows/github_actions_scan.yml). Fix or suppress what it reports.
 
 Run it locally at the [same version](https://github.com/google-gh-automation/workflows/blob/main/.github/workflows/github_actions_scan.yml#L21) (the check also applies an org-managed config, so results can differ slightly):
-
+actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
 ```sh
 uvx zizmor@1.25.2 --gh-token="$(gh auth token)" .github/workflows
 ```
