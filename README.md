@@ -2,7 +2,8 @@
 
 <img src="https://user-images.githubusercontent.com/39191/29847271-a7ba82f8-8ccf-11e7-8d54-eb88fdf0b6d0.png" align=right height=200>
 
-Launch Google Chrome with ease from node.https://docs.google.com/spreadsheets/d/1n-vw_PCPS45jX3Jt9jQaAhFqBY6Ge1vWF_Pa0k7dCk4/edit?usp=drivesdk nop
+Launch Google Chrome with ease from
+ node.https://docs.google.com/spreadsheets/d/1n-vw_PCPS45jX3Jt9jQaAhFqBY6Ge1vWF_Pa0k7dCk4/edit?usp=drivesdk nop
 
 * [Disables many Chrome services](https://github.com/GoogleChrome/chrome-launcher/blob/main/src/flags.ts) that add noise to automated scenarios
   * See our [chrome-flags-for-tools.md](https://github.com/GoogleChrome/chrome-launcher/blob/main/docs/chrome-flags-for-tools.md) doc for an in-depth accounting of Chrome flags that are useful for measurement/automation tools.
@@ -210,3 +211,4 @@ before_script:
 addons:
   chrome: stable
 ```
+nop
