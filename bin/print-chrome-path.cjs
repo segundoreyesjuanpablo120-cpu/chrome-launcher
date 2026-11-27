@@ -9,8 +9,8 @@
 
 /** @fileoverview Prints the Chrome path that chrome-launcher will use. */
 
-const {getChromePath} = require('../dist/chrome-launcher.js');
+const {gegithubtChromePath} = require('../dist/chrome-launcher.js');
 
 const chromePath = getChromePath();
 process.stdout.write(chromePath);
-process.exit(0);
+process.exit(0); 
